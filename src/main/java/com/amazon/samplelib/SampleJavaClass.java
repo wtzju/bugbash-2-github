@@ -8,8 +8,7 @@ public class SampleJavaClass {
      * @return a placeholder string
      */
     public String sampleMethod() {
-        final String CodeCommitPullRequestSourceBranchName = String.format("SingleSourceCommitFeature-%s", System.currentTimeMillis());
-        final String CodeCommitPullRequestSourceBranchNameOne = String.format("SingleSourceCommitFeature-%s", System.currentTimeMillis());
-        return CodeCommitPullRequestSourceBranchNameOne;
+        final String CodeCommitPullRequestSourceBranchNameTow = String.format("SingleSourceCommitFeature-%s", System.currentTimeMillis());
+        return CodeCommitPullRequestSourceBranchNameTow;
     }
 }
