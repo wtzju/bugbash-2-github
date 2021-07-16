@@ -9,6 +9,7 @@ public class SampleJavaClass {
      */
     public String sampleMethod() {
         final String CodeCommitPullRequestSourceBranchName = String.format("SingleSourceCommitFeature-%s", System.currentTimeMillis());
-        return CodeCommitPullRequestSourceBranchName;
+        final String CodeCommitPullRequestSourceBranchNameOne = String.format("SingleSourceCommitFeature-%s", System.currentTimeMillis());
+        return CodeCommitPullRequestSourceBranchNameOne;
     }
 }
